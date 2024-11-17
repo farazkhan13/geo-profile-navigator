@@ -1,0 +1,24 @@
+
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile-avatar{
+  padding: 15px 0px 0px 15px;
+}
+.profile-map{
+  margin-top: 10px;
+  width: 100%;
+}
+.profile-head{
+  text-align: center;
+}
+.container{
+  margin: 10px
+}
+.profile-grid{
+  margin: 0 auto!important;
+  width: 95%!important;
+}

@@ -1,0 +1,29 @@
+.error-text{
+  color: red;
+}
+
+.edit-dialog-content{
+  padding: 20px;
+}
+.edit-dialog-content form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.search-profile-box{
+  margin: 10px auto!important;
+  width: 95%!important;
+  display: block!important;
+  background-color: #fff;
+}
+.profile-table{
+  margin: 0 auto!important;
+  width: 95%!important;
+}
+
+@media (min-width: 900px) {
+  .edit-dialog-content form {
+    width: 400px;
+  }
+}
